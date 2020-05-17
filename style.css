@@ -55,6 +55,11 @@ img {
   background-color: darkslategray;
 }
 
+/* add padding above each ordered list item */
+ol>li {
+ padding-top: 15px;
+}
+
 /* Want <li> img background to match main background */
 li img {
   background-color: oldlace;
