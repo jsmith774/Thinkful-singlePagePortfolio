@@ -8,7 +8,7 @@ html {
   background-color: gray;
 }
 
-//set width/center content in primary semantic structure code blockes
+/* set width/center content in primary semantic structure code blocks */
 header, footer, main {
   width: 480px;
   margin: auto;
@@ -32,14 +32,14 @@ main {
   color: darkslategray
 }
 
-//style h1 and h2 identically
+/* style h1 and h2 identically */
 h1, h2 {
   margin: 0;
   padding: 0;
   font-family: 'Roboto Slab', serif;
 }
 
-//override h1 size
+/* override h1 size */
 h1 {
   font-size: 60px;
 }
@@ -55,19 +55,19 @@ img {
   background-color: darkslategray;
 }
 
-//Want <li> img background to match main background
+/* Want <li> img background to match main background */
 li img {
   background-color: oldlace;
 }
 
-//customize <hr>
+/* customize <hr> */
 hr {
   margin-top: 40px;
   border: 3px solid rgb(14, 24, 116);
   border-radius: 3px;
 }
 
-//a placeholder style for temporory html notes that should be rendered and not just code comments
+/* a placeholder style for temporory html notes that should be rendered and not just code comments */
 span.temp {
   font-size: smaller;
   font-weight: bolder;
