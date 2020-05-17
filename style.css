@@ -10,7 +10,7 @@ html {
 
 /* set width/center content in primary semantic structure code blocks */
 header, footer, main {
-  width: 480px;
+  width: 580px;
   margin: auto;
 }
 
@@ -71,4 +71,21 @@ hr {
 span.temp {
   font-size: smaller;
   font-weight: bolder;
+}
+
+a:link {
+  font-size: large;
+  color: aqua;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: blue;
 }
